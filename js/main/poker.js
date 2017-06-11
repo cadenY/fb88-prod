@@ -1,0 +1,1 @@
+var xx=jQuery.noConflict();xx(function(){AOS.init({easing:"ease-out-back",duration:1500,once:!0}),setTimeout(function(){xx(".owl-carousel").owlCarousel({loop:!0,items:1,nav:!0,mouseDrag:!1,autoplay:!0,autoplayTimeout:5e3,autoplayHoverPause:!0})},300)});
